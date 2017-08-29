@@ -1,0 +1,35 @@
+body {
+  background-color: #222;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100%;
+  padding: 20px;
+  color: white;
+}
+
+.outer-container {
+  max-width: 750px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.inner-container {
+  background: rgba(255, 255, 255, 0.2);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 4px;
+  text-align: center;
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inner-container>* {
+  flex: 1 1 100%;
+}
